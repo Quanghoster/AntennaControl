@@ -1,4 +1,6 @@
-
+const char* ssid = "BTHub3-3PSH";
+const char* ssid_EXT = "BTHub3-3PSH_EXT";
+const char* password = "4a57e3ba75";
 
 // Elevation stepper assignments
 
