@@ -1,0 +1,1 @@
+C:\Users\Andy.ASUS\Documents\Arduino\hardware\espressif\esp32\tools\espota -i 192.168.1.30 > -p 3232  -f AntennaControl.ino.nodemcu-32s.bin
