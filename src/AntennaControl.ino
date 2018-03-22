@@ -24,9 +24,7 @@ WiFiMulti wifiMulti;
 WiFiServer server(23);
 WiFiClient serverClients[MAX_SRV_CLIENTS];
 
-const char* ssid = "BTHub3-3PSH";
-const char* ssid_EXT = "BTHub3-3PSH_EXT";
-const char* password = "4a57e3ba75";
+
 
 /* Assign a unique ID to this sensor at the same time */
 QMC5883L compass;
