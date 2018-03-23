@@ -207,6 +207,7 @@ SemaphoreHandle_t baton;
   Serial.println("Ready");
   Serial.print(">");
   Serial.println("Starting OTA");
+  ArduinoOTA.setHostname("AntennaController");
   ArduinoOTA.begin();
 
 }
@@ -278,7 +279,7 @@ void loop()
 {
   EL_Stepper.step(10);
   delay(100);
-
+  ArduinoOTA.handle();
 }
 void loop2()
 {
